@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/login_bg_color"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo_note"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="20sp"
+            android:background="@drawable/round_corner"
+            android:padding="16dp"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="20sp"
+            android:background="@drawable/round_corner"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/edtConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Confrim password"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="20sp"
+            android:background="@drawable/round_corner"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            />
+
+        <EditText
+            android:id="@+id/edtFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Fullname"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="20sp"
+            android:background="@drawable/round_corner"
+            android:padding="16dp"
+            android:inputType="text"
+            />
+        <Button
+            android:id="@+id/btnRegisters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/round_btn"
+            android:textColor="#FFFFFF"
+            android:padding="18dp"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
